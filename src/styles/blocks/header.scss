@@ -1,0 +1,43 @@
+.header {
+  background-image: url(../images/image-header.png);
+  background-size: cover;
+  background-position: center;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    box-sizing: border-box;
+    height: 100vh;
+    padding: 25px 0 288px;
+
+    @include onDesktop {
+      padding: $headerTopPadding 0 482px;
+    }
+  }
+
+  &__top {
+    @include top-actions;
+  }
+
+  &__title {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 40px;
+    color: $colorWhite;
+    text-align: center;
+    vertical-align: center;
+    letter-spacing: -1.5px;
+
+    @include onDesktop {
+      font-size: 80px;
+      line-height: 80px;
+    }
+  }
+
+  &__right-icons {
+    display: flex;
+    align-items: center;
+  }
+}
