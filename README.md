@@ -2,7 +2,7 @@
 
 THE MET - The Metropolitan Museum of Art presents over 5,000 years of art from around the world for everyone to experience and enjoy.
 
-The project uses SASS, HTML, JS, BEM.
+The project uses CSS, SCSS, HTML, JS, BEM.
 
 And BEM methodology to simplify and speed up development.
 
